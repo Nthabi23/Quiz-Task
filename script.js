@@ -105,7 +105,7 @@ const quizArray = [
 ];
 
 restart.addEventListener("click", () => {
-    initial();
+  initial();
     displayContainer.classList.remove("hide");
     scoreContainer.classList.add("hide");
 });
